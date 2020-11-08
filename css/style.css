@@ -1,0 +1,57 @@
+* {
+    margin:0;
+    padding:0;
+}
+body, html {
+    height:100%;
+}
+
+aside {
+    height:100%;
+    background: url(../img/young-pretty-woman-wearing-glasses-on-her-head-smiling-happily-while-reading-document-saying-that-bank-approved-their-mortgage-application.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    margin:5px;
+    
+}
+a {
+    color:black;
+    padding:10px;
+    border-radius:4px;
+}
+a:hover {
+    background-color:#242424;
+    color:white;
+   
+    text-decoration:none;
+}
+
+@media (min-width:361px) {
+    nav li{
+        display:inline;
+        margin:60px 0;
+    
+       
+    
+    }
+}
+@media (max-width:361px) {
+    nav li{
+        margin:25px;
+        
+        
+    
+    }
+    aside {
+        background:url(https://www.itl.cat/pngfile/big/4-43065_anime-wallpaper-gif-1080p.jpg)no-repeat;
+        background-size: cover;
+        background-position:center  ;
+    }
+}
