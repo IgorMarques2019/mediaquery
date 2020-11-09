@@ -18,13 +18,14 @@ aside {
     align-items: center;
 }
 li {
-    margin:5px;
+    margin:10px;
     
 }
 a {
     color:black;
     padding:10px;
     border-radius:4px;
+    display:inline-block;
 }
 a:hover {
     background-color:#242424;
@@ -36,7 +37,7 @@ a:hover {
 @media (min-width:361px) {
     nav li{
         display:inline;
-        margin:60px 0;
+        
     
        
     
@@ -44,7 +45,7 @@ a:hover {
 }
 @media (max-width:361px) {
     nav li{
-        margin:25px;
+        margin:25px 0;
         
         
     
