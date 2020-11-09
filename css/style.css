@@ -43,7 +43,7 @@ a:hover {
     
     }
 }
-@media (max-width:361px) {
+@media (max-width:420px) {
     nav li{
         margin:25px 0;
         
