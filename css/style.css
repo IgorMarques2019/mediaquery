@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
     margin:0;
     padding:0;
@@ -12,10 +19,19 @@ aside {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 li {
     margin:10px;
@@ -43,7 +59,7 @@ a:hover {
     
     }
 }
-@media (max-width:420px) {
+@media (max-width:361px) {
     nav li{
         margin:25px 0;
         
